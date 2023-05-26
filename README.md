@@ -50,7 +50,7 @@ Also it will malfunction if you use free(), instead of the builtin [FREE] type t
 
 ## Mechinsm of Action
 
-ft_malloc relies heavily on the static linked list inside it to function, each time you allocate using ft_malloc a new node is created and points
+* ft_malloc relies heavily on the static linked list inside it to function, each time you allocate using ft_malloc a new node is created and points
 to the newly allocated pointer for it to be later freed, Once you use the [FREE_ALL] type, all pointers held by ft_malloc will be destoryed.
 
 ## Bugs
