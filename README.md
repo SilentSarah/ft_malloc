@@ -1,5 +1,5 @@
 # FT_MALLOC
-## _Two in One!_
+## _All in One!_
 [![C Language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
 
 > ft_malloc provides flexible memory allocation and management
