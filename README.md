@@ -48,6 +48,11 @@ and stores it in a linked list.
 Please note that ft_malloc will not count any pointers allocated by other functions (malloc(), calloc() or any memory allocation functions).
 Also it will malfunction if you use free(), instead of the builtin [FREE] type that this library has.
 
+## Mechinsm of Action
+
+ft_malloc relies heavily on the static linked list inside it to function, each time you allocate using ft_malloc a new node is created and points
+to the newly allocated pointer for it to be later freed, Once you use the [FREE_ALL] type, all the pointers held by ft_malloc will be destoryed.
+
 ## Bugs
 * Since this is the first version of this library it is prone to bugs and issues.
 while the initial testing was successful, there might be issues that lie within.
