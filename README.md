@@ -16,7 +16,7 @@
 
 ## Function Prototype
 ```c
-void		*ft_malloc(unsigned int size, void	*free_ptr, int type, uint32_t *t_size);
+void		*ft_malloc(unsigned int size, void *free_ptr, int type, uint32_t *t_size);
 ```
 
 ## Guide
