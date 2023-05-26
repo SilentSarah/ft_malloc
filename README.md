@@ -30,11 +30,11 @@ and stores it in a linked list.
 ```c
     USAGE: char *ptr = ft_malloc(42, NULL, ALLOC, NULL);
 ```
-- [FREE] - Free's the free_ptr pointer and destroys the node associated with it.
+- [FREE] - Frees the free_ptr pointer and destroys the node associated with it.
 ```c
     USAGE: ft_malloc(0, ptr, FREE, NULL);
 ```
-- [FREE_ALL] - Frees and nullifies all the pointers allocated by ft_malloc.
+- [FREE_ALL] - Frees and nullifies all pointers allocated by ft_malloc.
 ```c
     USAGE: ft_malloc(0, NULL, FREE_ALL, NULL);
 ```
