@@ -56,7 +56,7 @@ I'll appreciate any kind of feedback at my discord account ***SHM#5112***
 
 [//]: # (Comments)
 
-   [T_SIZE]: <http://twitter.com/tjholowaychuk>
+   [T_SIZE]: <https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Differences_between_malloc()_and_calloc()>
    [FREE_ALL]: <https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Differences_between_malloc()_and_calloc()>
    [ALLOC]: <https://en.wikipedia.org/wiki/C_dynamic_memory_allocation>
    [FREE]: <https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#Differences_between_malloc()_and_calloc()>
