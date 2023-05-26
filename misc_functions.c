@@ -6,7 +6,7 @@
 /*   By: hmeftah <hmeftah@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/25 16:54:30 by hmeftah           #+#    #+#             */
-/*   Updated: 2023/05/26 12:48:25 by hmeftah          ###   ########.fr       */
+/*   Updated: 2023/05/26 14:48:08 by hmeftah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ void	destroy_node(t_address *node)
 		node->dealloc = 1;
 		node->ptr = NULL;
 		node->size = 0;
-		print_string("Node has been destroyed\n");
 	}
 	free(node);
 	node = NULL;
@@ -40,7 +39,6 @@ t_address	*create_node(void *ptr, unsigned int size)
 	node->prev = NULL;
 	node->next = NULL;
 	node->ptr = ptr;
-	print_str_with_int("Node Created with pointer size of: ", node->size);
 	return (node);
 }
 

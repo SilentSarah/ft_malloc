@@ -6,7 +6,7 @@
 /*   By: hmeftah <hmeftah@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/25 16:47:23 by hmeftah           #+#    #+#             */
-/*   Updated: 2023/05/26 12:57:14 by hmeftah          ###   ########.fr       */
+/*   Updated: 2023/05/26 14:48:21 by hmeftah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,7 +88,6 @@ static void	*get_t_size(t_address *addresses, unsigned int *t_size)
 	}
 	if (t_size)
 		*t_size = size_ptr;
-	print_str_with_int("Total Bytes Allocated: ", size_ptr);
 	return (NULL);
 }
 
@@ -100,7 +99,7 @@ static void	*get_t_size(t_address *addresses, unsigned int *t_size)
 - FREE_ALL to free all pointers allocated since the beginning of the program.
 - T_SIZE prints the total size of the allocated memory.
 */
-void	*ft_malloc(unsigned int	size, void	*free_ptr,
+void	*ft_malloc(unsigned int size, void	*free_ptr,
 	int type, uint32_t *t_size)
 {
 	static t_address	*addresses = NULL;

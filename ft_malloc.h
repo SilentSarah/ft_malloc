@@ -6,7 +6,7 @@
 /*   By: hmeftah <hmeftah@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/25 16:36:53 by hmeftah           #+#    #+#             */
-/*   Updated: 2023/05/26 12:57:36 by hmeftah          ###   ########.fr       */
+/*   Updated: 2023/05/26 14:24:32 by hmeftah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ struct s_address
 };
 typedef struct s_address	t_address;
 
-void		*ft_malloc(unsigned int	size, void	*free_ptr,
+void		*ft_malloc(unsigned int size, void	*free_ptr,
 				int type, uint32_t *t_size);
 t_address	*create_node(void *ptr, unsigned int size);
 void		add_node_back(t_address **head, t_address *node);
