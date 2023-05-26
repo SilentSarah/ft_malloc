@@ -21,7 +21,7 @@ void		*ft_malloc(unsigned int size, void *free_ptr, int type, uint32_t *t_size);
 
 ## Guide
 ***Warning:***
-    Make sure to change to name of the author and email in 42's Header.
+    Make sure to change the name of the author and email in 42's Header.
 
 ft_malloc relies on a list of types to achieve different goals.
 
